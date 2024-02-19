@@ -1,5 +1,5 @@
 <template>
-  <PaginaPrincipal />
+  
   <router-view />
   <!-- <PaginaRegistro /> -->
 </template>
