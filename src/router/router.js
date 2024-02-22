@@ -18,6 +18,14 @@ const routes = [
         component:()=>import('../page/PaginaFactura')
     },
     {
+        path:'/servicios',
+        component:()=>import('../page/PaginServiciosMedicos')
+    },
+    {
+        path:'/historial',
+        component:()=>import('../page/paginaHistorial.vue')
+    },
+    {
         path:'/:patMatch(.*)*',
         component:()=>import('../page/NoFoundPage')
     }    
